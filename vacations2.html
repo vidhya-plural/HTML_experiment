@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>vacation</title>
+<link rel="stylesheet" type="text/css" href="css/styles2.css">
+        <meta charset="utf-8">
+        <meta name ="viewport" content="width=device-width,initial-scale=1">
+</head>
+    <style>
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+        }
+        .flex-item-left, .flex-item-right{
+           
+            padding: 10px;
+            margin: 10px;
+            flex: 50%;
+            border-color:burlywood;
+            height: 100%;
+        }
+        h2{
+            text-align: center;
+        }
+.flex-item-left,.flex-item-right >p{
+    text-align: justify;
+}
+        /* Responsive layout - makes a one column-layout instead of two-column layout */
+        @media (max-width: 500px) {
+            .flex-container {
+                flex-direction: column;
+            }
+        }
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;
+            height: 40%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Favorite vacation destinations in INDIA</h1>
+    <p>India is famous for tourism. Each state in India is famous for different tourist attractions. Different places in India will entertain tourists by natural wonders, tranquil places, history and architecture, spirituality etc. All these make visitors to visit India for a memorable trip.</p>
+    <div class="flex-container">
+        <div class="flex-item-left">
+            <h2>Delhi</h2>
+            <img src="./image/Delhi.jpeg" alt="India gate" style="width:500px;height:200px;" />
+            <p>Kerala is a popular destination for both domestic as well as foreign tourists. Kerala is well known for its beaches, backwaters in Alappuzha and Kollam, mountain ranges and wildlife sanctuaries. Other popular attractions in the state include the beaches at Kovalam, Muzhappilangad, Bekal and Kappad; backwater tourism and lake resorts around Ashtamudi Lake, Kollam; hill stations and resorts at Munnar, Wayanad, Nelliampathi, Vagamon and Ponmudi; and national parks and wildlife sanctuaries at Wayanad, Periyar, Parambikulam, Silent Valley National Park and Eravikulam National Park. The "backwaters" region—an extensive network of interlocking rivers, lakes, and canals that centre on Vembanad Lake, also see heavy tourist traffic. Heritage sites, such as the Padmanabhapuram Palace, Hill Palace, and Mattancherry Palace, are also visited.</p>
+        </div>
+        <div class="flex-item-right">
+            <h2>Kerala</h2>
+            <img src="./image/kerala.jpeg" alt="Kerala" alt="Kerala" style="width:500px;height:200px;" />
+            <p>Santhome Church exhibits the Gothic revival architecture style of the late 19th century. It has a rib vault ceiling made of teak wood, with marble and granite used in other parts of the construction. It was built with 16 windows and 34 stained glass panels, with a main stained glass over the altar representing Thomas the Apostle touching the wound of Christ. The statue in the main altar represents "Thomas the Apostle as priest and Jesus Christ as king". In addition, there are 14 Stations of the Cross attached at the side wall of the cathedral.</p>
+        </div>
+    </div>
+    <div class="flex-container">
+        <div class="flex-item-left">
+            <h2>Agra</h2>
+            <img src="./image/Taj.jpeg" alt="Agra" style="width:500px;height:200px;" />
+            <p>Agra is one of the most populous cities in Uttar Pradesh, and the 24th most populous in India. Agra is a major tourist destination because of its many Mughal-era buildings, most notably the Tāj Mahal, Agra Fort and Fatehpūr Sikrī, all three of which are UNESCO World Heritage Sites.</p>
+        </div>
+            <div class="flex-item-right">
+                <h2>Tamilnadu</h2>
+                <img src="./image/tamilnadu.jpeg" alt="Tamil" style="width:500px;height:200px;" />
+                <p>Tamil Nadu is a preferred travel destination for many due its Beach, Relaxation, Pilgrimage, Hills & Mountains, Adventure, Wildlife, Trek, Food and Heritage. Get to relish the local cuisine, learn about their culture and create tons of memories.</p>
+            </div>
+        </div>
+</body>
+</html>
